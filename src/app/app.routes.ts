@@ -32,6 +32,8 @@ import { GetallcartComponent } from '../Pages/Cart/getallcart/getallcart.compone
 import { CartbyidComponent } from '../Pages/Cart/cartbyid/cartbyid.component';
 import { uploadimgComponent } from '../Pages/uploadimg/uploadimg.component';
 import { HomeComponent } from './home/home.component';
+import { PaymentpageComponent } from './paymentpage/paymentpage.component';
+import { PaymentSuccessfulComponent } from './payment-successful/payment-successful.component';
 
 
  
@@ -67,6 +69,8 @@ export const routes: Routes = [
     {path:'getorders',component:GetordersComponent},
     {path:'login',component:LoginComponent},
     {path:'placeorder',component:PlaceorderComponent},
+    {path:'paymentpage',component:PaymentpageComponent},
+    {path:'paymentsucessful',component:PaymentSuccessfulComponent},
     {path:'admindashboard',component:AdminDashboardComponent,
     children:[
         {path:'getorders',component:GetordersComponent},

@@ -93,7 +93,7 @@ export class GetallcartComponent {
 
   buyProduct()
   {
-    this.router.navigateByUrl('placeorder');
+    this.router.navigateByUrl('paymentpage');
   }
 
 
